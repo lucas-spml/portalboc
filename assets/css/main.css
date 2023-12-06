@@ -1996,6 +1996,36 @@ ol {
   margin-top: 30px;
 }
 
+
+
+
+
+
+
+.item-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  height: 100%; /* Ajusta a altura conforme necessário */
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero-area.style3 .categories .single-cat {
   border: none;
   background-color: #fff;
@@ -3511,7 +3541,7 @@ blockquote .shape {
 }
 
 .categories .cat-inner {
-  padding: 30px 40px;
+  padding: 0px 0px;
   border: 1px solid #eee;
   border-radius: 6px;
   position: relative;
@@ -3553,7 +3583,7 @@ blockquote .shape {
 
 .categories .single-cat {
   text-align: center;
-  padding: 15px 10px;
+  padding: 70px 10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: block;
@@ -3565,9 +3595,9 @@ blockquote .shape {
   border-radius: 6px;
 }
 
-.categories .single-cat:hover {
+/* .categories .single-cat:hover {
   background-color: #f9f9f9;
-}
+} */
 
 .categories .single-cat .icon img {
   width: 40px;
@@ -3667,7 +3697,17 @@ blockquote .shape {
 /* Category Page*/
 .category-page {
   background-color: #f9f9f9;
+  padding-top: 160px;
 }
+
+@media (max-width: 767px) {
+  .category-page {
+    padding-top: 150px;;
+  }
+}
+
+
+
 
 .category-page .single-ad-grid {
   background-color: #fff;
