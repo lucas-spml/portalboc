@@ -1009,7 +1009,7 @@ ol {
 
 .section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   position: relative;
   
 }
@@ -1744,6 +1744,7 @@ ol {
   float: left;
 }
 
+
 .navbar-nav .nav-item .sub-menu.mega-menu .single-block:first-child {
   padding-right: 10px;
 }
@@ -2029,7 +2030,6 @@ ol {
 .hero-area.style3 .categories .single-cat {
   border: none;
   background-color: #fff;
-  padding: 20px 10px;
 }
 
 .hero-area .hero-text h2 {
@@ -3599,8 +3599,8 @@ blockquote .shape {
   background-color: #f9f9f9;
 } */
 
-.categories .single-cat .icon img {
-  width: 40px;
+.categories .single-cat  img {
+  width: 100px;
 }
 
 .categories .single-cat h3 {
@@ -3708,6 +3708,54 @@ blockquote .shape {
 
 
 
+.card {
+  padding: 20px;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-button {
+  display: block;
+  width: calc(100% - 32px); /* Largura total menos a soma das margens esquerda e direita */
+  margin: 8px 16px; /* Margens superior e inferior */
+  padding: 10px 20px;
+  background-color: #017AFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 64px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.blue-button:hover {
+  background-color: #0069DC;
+  color: #fff;
+}
+
+.blue-button-item {
+  display: block;
+  width: calc(100% - 32px); /* Largura total menos a soma das margens esquerda e direita */
+  margin: 8px 0px; /* Margens superior e inferior */
+  padding: 10px 20px;
+  background-color: #017AFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 64px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.blue-button-item:hover {
+  background-color: #0069DC;
+  color: #fff;
+}
+
+
+
 
 .category-page .single-ad-grid {
   background-color: #fff;
@@ -3750,6 +3798,22 @@ blockquote .shape {
 .category-page .category-grid-topbar .nav button:last-child {
   margin: 0;
 }
+
+.category-sidebar .title-prod {
+  background-color: #fff;
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.category-sidebar .title-prod h3 {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}
+
+
 
 .category-sidebar .single-widget {
   background-color: #fff;
@@ -3985,6 +4049,15 @@ blockquote .shape {
   margin-top: 30px;
 }
 
+.items-grid .single-grid-bt {
+  -webkit-box-shadow: 0 10px 30px rgba(35, 38, 45, 0.062) !important;
+          box-shadow: 0 10px 30px rgba(35, 38, 45, 0.062) !important;
+  background: #fff;
+  border-radius: 64px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
 .items-grid .single-grid .image {
   position: relative;
 }
@@ -4100,9 +4173,20 @@ blockquote .shape {
           transform: scale(1.1);
 }
 
-.items-grid .single-grid .content .top-content {
-  padding: 30px 30px 25px 30px;
+.items-grid .single-grid .content .description {
+  padding: 0px 30px 12px 30px;
 }
+
+
+.icons-cat {
+  padding: 12px 30px 12px 30px;
+}
+
+
+.items-grid .single-grid .content .top-content {
+  padding: 12px 30px 12px 30px;
+}
+ 
 
 .items-grid .single-grid .content .top-content .tag {
   display: inline-block;
@@ -4194,9 +4278,151 @@ blockquote .shape {
   margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+.items-grid .single-grid .content .top-content-card {
+  padding: 12px 30px 0px 30px;
+}
+ 
+
+.items-grid .single-grid .content .top-content-card .tag {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #888;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.items-grid .single-grid .content .top-content-card .tag i {
+  display: inline-block;
+  margin-right: 5px;
+  color: #017AFF;
+}
+
+.items-grid .single-grid .content .top-content-card .tag:hover {
+  color: #017AFF;
+}
+
+.items-grid .single-grid .content .top-content-card .title {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.items-grid .single-grid .content .top-content-card .title a {
+  color: #081828;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.items-grid .single-grid .content .top-content-card .title a:hover {
+  color: #017AFF;
+}
+
+.items-grid .single-grid .content .top-content-card .update-time {
+  font-size: 14px;
+}
+
+.items-grid .single-grid .content .top-content-card .rating {
+  margin-top: 10px;
+}
+
+.items-grid .single-grid .content .top-content-card .rating li {
+  display: inline-block;
+  color: #FFAB02;
+}
+
+.items-grid .single-grid .content .top-content-card .rating li a {
+  color: #888;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.items-grid .single-grid .content .top-content-card .rating li a:hover {
+  color: #017AFF;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list li {
+  display: block;
+  float: left;
+  width: 50%;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list li a {
+  color: #888;
+  font-weight: 500;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list li a:hover {
+  color: #017AFF;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list li a i {
+  color: #017AFF;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.items-grid .single-grid .content .top-content-card .info-list li:last-child {
+  margin: 0;
+}
+
+
+
+
+
+
+
+.icon-list {
+
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+/* Estilize os ícones dentro da lista conforme necessário */
+.icon-list li {
+
+  font-size: 14px;
+  color: #333;
+  /* Cor dos ícones */
+  display: flex;
+  align-items: center;
+  /* Alinha os itens verticalmente */
+  gap: 5px;
+  /* Espaçamento entre o ícone e o texto */
+}
+
+
+
+
+
+
+
+
+
+
 .items-grid .single-grid .content .bottom-content {
   padding-top:16px;
   padding-left:30px;
+  
   padding-bottom: 5px;
   border-top: 1px solid #eee;
   overflow: hidden;
@@ -4206,6 +4432,7 @@ blockquote .shape {
   float: left;
   font-size: 14px;
   position: relative;
+  padding-right: 50px;
   font-weight: 500;
   top: 8px;
   font-family: 'Jost',
@@ -4297,6 +4524,84 @@ blockquote .shape {
   background: #017AFF;
   border-color: transparent;
 }
+
+
+
+
+
+
+
+.items-grid .single-grid .content .bottom-content-buy-wpp {
+  background-color: #017AFF;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ffffff60;
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer; /* Adicionando cursor pointer para indicar que é clicável */
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp:hover {
+  background-color: #0069DC;
+  padding: 15px 30px;
+  overflow: hidden;
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp.added {
+  background-color: #bdbdbd; /* Cor quando adicionado */
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp .price {
+  float: left;
+  font-size: 14px;
+  position: relative;
+  font-weight: 500;
+  top: 8px;
+  font-family: 'Jost', sans-serif;
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp .price span {
+  color: #017AFF;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp .like {
+  float: right;
+  color: #017AFF;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.items-grid .single-grid .content .bottom-content-buy-wpp .like:hover {
+  color: #fff;
+  background: #017AFF;
+  border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6354,6 +6659,22 @@ blockquote .shape {
   font-size: 16px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*======================================
     Item Details CSS
 ========================================*/
@@ -6630,6 +6951,15 @@ blockquote .shape {
   border-radius: 6px;
   margin-top: 30px;
 }
+
+.item-details-blocks .store {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
 
 .item-details-blocks .single-block h3 {
   font-size: 20px;
@@ -7132,7 +7462,7 @@ blockquote .shape {
     padding: 60px 0;
   }
   .categories .single-cat .icon img {
-    width: 35px;
+    width: cover;
   }
   .our-achievement {
     padding-top: 30px;
