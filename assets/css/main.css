@@ -2063,7 +2063,6 @@ ol {
 
 /* Hero Search Form */
 .search-form {
-  margin-top: 60px;
   background: #fff3;
   border-radius: 6px;
   padding: 30px;
@@ -2101,8 +2100,10 @@ ol {
 }
 
 .search-form .search-input {
+  padding: 0px;
+  margin: 8px 8px 8px 16px;
   position: relative;
-  padding: 0px 8px;
+  
 }
 
 .search-form .search-input input {
@@ -2274,6 +2275,44 @@ ol {
   font-family: 'Jost',
  sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*======================================
     Testimonial CSS
@@ -3696,7 +3735,6 @@ blockquote .shape {
 
 /* Category Page*/
 .category-page {
-  background-color: #f9f9f9;
   padding-top: 160px;
 }
 
@@ -4415,6 +4453,34 @@ blockquote .shape {
 
 
 
+.items-grid .single-grid .content .bottom-content-house {
+  
+  padding-left:30px;
+  
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.items-grid .single-grid .content .bottom-content-house .price {
+  float: left;
+  font-size: 14px;
+  position: relative;
+  padding-right: 50px;
+  font-weight: 500;
+  top: 8px;
+  font-family: 'Jost',
+ sans-serif;
+}
+
+.items-grid .single-grid .content .bottom-content-house .price span {
+  color: #017AFF;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
 
 
 
@@ -4611,6 +4677,12 @@ blockquote .shape {
 .items-grid .single-grid .content .bottom-content-price {
   background-color: #fff;
   padding-left:34px;
+  padding-bottom: 0px;
+  color: #888;
+  overflow: hidden;
+}
+.items-grid .single-grid .content .bottom-content-text {
+  background-color: #fff;
   padding-bottom: 0px;
   color: #888;
   overflow: hidden;
@@ -5101,6 +5173,7 @@ blockquote .shape {
 }
 
 .newsletter .newsletter-form .button .btn {
+  
   display: inline-block;
   background: #fff;
   color: #017AFF;
@@ -6658,6 +6731,11 @@ blockquote .shape {
 .why-choose .choose-content .single-list p {
   font-size: 16px;
 }
+
+
+
+
+
 
 
 
